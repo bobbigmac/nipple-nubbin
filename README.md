@@ -6,7 +6,7 @@ I added a simple watch-function over the nipplejs events base (just to move some
 
 ### Simple Usage
 
-```
+```javascript
 //render on your outermost template
 Template.layout.onRendered(function() {
 	// will bind to the body and trigger every 300ms of force > 1.
@@ -21,7 +21,7 @@ Template.layout.onRendered(function() {
 ```
 
 `watch(options, function(data) { })` may also take options.
-```
+```javascript
 {
 	// minimum duration between updates (ms)
 	minWait: 300;
@@ -35,7 +35,7 @@ Template.layout.onRendered(function() {
 ### Advanced Usage
 
 Use the underlying nipplejs API. See [nippleJS docs](http://yoannmoinet.github.io/nipplejs/)
-```
+```javascript
 var nipplejs = new Nipple(nippleOptions);
 nipplejs.on('move', function(type, data) {
 	//do something with data	
