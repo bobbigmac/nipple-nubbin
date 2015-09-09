@@ -26,9 +26,9 @@ Template.layout.onRendered(function() {
 	// minimum duration between updates (ms)
 	minWait: 300;
 	// degrees of slack on up/down/left/right (0 gives breaks at 45 degrees, no overlap)
-  margin: 22.5;
-  // force threshold before update (0 all -> 2 never)
-  force: 1.00;
+	margin: 22.5;
+	// force threshold before update (0 all -> 2 never)
+	force: 1.00;
 }
 ```
 
