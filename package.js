@@ -1,6 +1,6 @@
 Package.describe({
   name: 'bobbigmac:nipple-nubbin',
-  version: '1.0.0',
+  version: '0.3.1',
   // Brief, one-line summary of the package.
   summary: 'Wraps nipplejs: A virtual joystick for touch capable interfaces.',
   // URL to the Git repository containing the source code for this package.
