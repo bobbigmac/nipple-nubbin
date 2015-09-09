@@ -1,4 +1,4 @@
-# Nipplejs Wrappper Meteor Package
+## Nipplejs Meteor Package
 
 Wraps [nippleJS](http://yoannmoinet.github.io/nipplejs/): A virtual joystick for touch capable interfaces.
 
